@@ -80,8 +80,8 @@ function displayResults(
   let theScoreDisplay = document.querySelector(".jsScore");
   theResultDisplay.innerHTML = aResult;
   theMovesDisplay.innerHTML = `You      
-         <img class="moveIcon" src="/${aUserChoice}Final.png" alt="Rock" />
-               <img class="moveIcon" src="/${aComputerChoice}Final.png" alt="Rock" />
+         <img class="moveIcon" src="./${aUserChoice}Final.png" alt="Rock" />
+               <img class="moveIcon" src="./${aComputerChoice}Final.png" alt="Rock" />
 
  Computer`;
 
